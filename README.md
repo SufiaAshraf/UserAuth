@@ -9,11 +9,18 @@ A demo page for building user authentication page using node.js
 # Built-with
 * [Node-js](https://nodejs.org/en/docs/)  - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [Npm](https://docs.npmjs.com/)  -   Npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js.
-* [Mongo Atlas](https://www.mongodb.com/cloud/atlas/) - MongoDB Atlas is the global cloud database service for modern applications. Deploy fully managed MongoDB across AWS, Azure, or GCP.
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/) - MongoDB Atlas is the global cloud database service for modern applications. Deploy fully managed MongoDB across AWS, Azure, or GCP.
 
 # Demo Image
-This is the screenshot of demo
-![](https://github.com/SufiaAshraf/currencyconversion20/blob/master/Screenshot_20200426-025507.png)
+This is the screenshot1 of demo
+![](https://github.com/SufiaAshraf/UserAuth/blob/master/images/Screenshot%20from%202020-04-28%2002-28-08.png)
+
+If a user tries to signup with an existing username
+![](https://github.com/SufiaAshraf/UserAuth/blob/master/images/Screenshot%20from%202020-04-28%2002-28-25.png)
+
+When a new user signs up
+![](https://github.com/SufiaAshraf/UserAuth/blob/master/images/Screenshot%20from%202020-04-28%2002-28-45.png)
+
 
 
 # Development
