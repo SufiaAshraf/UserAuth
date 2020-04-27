@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>UserAuth</title>
+		<link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+	</head>
+	<body>
+<nav class= "navbar navbar-default">
+	<div class ="container-fluid">
+		<div class= "navbar-header">
+			<a class="navbar-brand" href= "/">UserAuth</a>
+		</div>
+	</div>
+</nav>
+<div class="container">
+	<% if(error && error.length > 0){%>
+		<div class="alert alert-danger" role="alert">
+            <%= error %>
+		</div>
+	<% } %>
+	<% if(success && success.length > 0){%>
+		<div class="alert alert-success" role="alert">
+			<%= success %>
+		</div>
+	<% } %>
+</div>
+
+    <h5>New User? Sign Up first</h5>
+<h1>
+	Sign up!
+</h1>
+
+<form action="/register" method="post">
+	<input type="text" name="username" placeholder="username">
+	<input type="password" name="password" placeholder="password">
+	<button class="btn btn-info" >Sign Up</button>
+</form>
+<hr>
+
+<h1>Login!</h1>
+<form action="/login" method="POST">
+	<input type="text" name="username" placeholder="username">
+	<input type="password" name="password" placeholder="password">
+	<input class="btn btn-info" type="submit" value="login">
+</form>
+</body>
+</html>
