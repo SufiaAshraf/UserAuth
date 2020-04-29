@@ -18,7 +18,7 @@ var express      = require('express'),
 	console.log("Could not connect to mongo server!");
 	return console.log(err);
   });
-  const URI = "mongodb+srv://Sufia_Ashraf:iK14LV0iGLgsPiRL@cluster0-rx72y.mongodb.net/test?retryWrites=true&w=majority";
+  const URI = "mongodb+srv://<username>:<password>@cluster0-rx72y.mongodb.net/test?retryWrites=true&w=majority";
   const db = mongoose.connect(URI, { useNewUrlParser: true , useFindAndModify: false,  useUnifiedTopology: true  });
 
 
